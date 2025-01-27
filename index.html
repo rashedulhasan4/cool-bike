@@ -32,7 +32,7 @@
                     colors: {
                         clifford: '#da373d',
                         'btn-color': '#E76F51',
-                         'banner-color' : 'rgba(231, 111, 81, 0.1)'
+                        'banner-color': 'rgba(231, 111, 81, 0.1)'
                     }
                 }
             }
@@ -167,7 +167,22 @@
         </div>
     </header>
     <!-- Main Section -->
-    <main class="md:container m-auto"></main>
+    <main class="md:container m-auto">
+        <!-- Featured Bikes -->
+         <section class="my-20 lg:my-40 ">
+            <!-- heading -->
+             <div class="text-center m-auto">
+                <h2 class="text-2xl lg:text-5xl font-semibold ">Featured Bikes In This Year</h2>
+                <p class="text-btn-color font-semibold text-sm pt-2 ">Best bike collection</p>
+                <hr class="border-btn-color border-[1px] w-16 m-auto lg:block hidden mt-1">
+             </div>
+             <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly mt-7 lg:mt-11 gap-2 lg:gap-7">
+                <div class="lg:p-10 px-10 py-4"><img src="./images/others/feature-bike.png" alt="" class="w-full"></div>
+                <div class="lg:p-10 px-10 py-4"><img src="./images/slider/bike2.png" class="w-full" alt=""></div>
+                <div class="lg:p-10 px-10 py-4"><img src="./images/slider/bike3.png" class="w-full" alt=""></div>
+             </div>
+         </section>
+    </main>
     <!-- Footer Section -->
     <footer></footer>
 </body>
