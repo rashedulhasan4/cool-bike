@@ -9,12 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@border border-blue-500;0,300;0,400;0,500;0,600;0,700;0,800;0,900;border border-blue-500;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- Style -->
     <style>
@@ -333,10 +328,7 @@
         <section class="mb-20 lg:mb-36">
             <div class="hero ">
                 <div class="hero-content flex-col lg:flex-row justify-items-center lg:w-5/6 gap-10">
-                    <div class="">
-                        <img src="./images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
-
-                    </div>
+                    <img src="./images/others/faq.png" class=" max-w-52 lg:max-w-80 rounded-lg shadow-2xl" />
                     <div class="font-inter flex flex-col gap-3 mt-8 lg:mt-0">
                         <div class="collapse collapse-arrow border border-blue-500 ">
                             <input type="radio" name="my-accordion-2" checked="checked" />
@@ -390,7 +382,50 @@
         </section>
     </main>
     <!-- Footer Section -->
-    <footer></footer>
+    <footer class="footer bg-black text-neutral-content p-10">
+        <aside class="flex flex-col gap-6">
+            <div class="flex flex-col lg:flex-row gap-6">
+                <div>
+                    <p>Download Now</p>
+                </div>
+                <div>
+                    <p>License</p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-6">
+                <div>
+                    <p>About</p>
+                </div>
+                <div>
+                    <p>Features</p>
+                </div>
+                <div>
+                    <p>Pricing</p>
+                </div>
+                <div>
+                    <p>Careers</p>
+                </div>
+                <div>
+                    <p>Help</p>
+                </div>
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div>© 2020 bike. All rights reserved</div>
+        </aside>
+        <nav>
+            <h6 class="footer-title text-gray-200 font-medium text-lg opacity-80">Get The App</h6>
+            <div class="grid grid-flow-row gap-4">
+                <a>
+                    <img class="max-h-10 max-w-32" src="./images/others/android.png" alt="">
+                </a>
+                <a>
+                    <img class="max-h-10 max-w-32" src="./images/others/ios.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
